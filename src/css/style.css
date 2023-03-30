@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
+/* Home */
+
+.typew h4 {
+  position: relative;
+  color: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+  font-family: "Anonymous Pro", monospace;
+  letter-spacing: 7px;
+  overflow: hidden;
+  border-right: 2px solid 0px 4px 4px rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+  animation: typewriter 4s steps(40, end) 1s 1 normal both,
+    blinkTextCursor 500ms step-end infinite  alternate;
+} 
+
+.box  .aboutsjw h4{
+  
+  width: 369px;
+  height: 45px;
+  
+  /* font-family: 'Inika'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  
+  color: #000000;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .box {position: relative;}
+   
+  .row .box h2 {
+  
+    align-items: center;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .aboutsjw {
+    padding-top: 60px;
+    padding-left: 60px;
+    position: absolute;}
+  
+  
+  .carousel-inner > .carousel-item > img {
+    width:330px;
+    height:370px;
+  }
+  
+  
+
+/* Skills */
+
+.rec2 {
+  position: absolute;
+width: 730px;
+height: 1400px;
+left: 500px;
+top: 80px;
+right: 10px;
+
+background: rgba(217, 217, 217, 0.6);
+filter: blur(2px);
+border-radius: 70px;
+}
+.written {
+  position: absolute;
+  color: #000000;
+  left: 550px;
+  top: 120px;
+  width: 600px;
+}
+.written h3 {
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+.written .box h4{
+  margin-top: 40px;
+}
+
+
+/* ShadowArmy */
+
+.parallax {
+  /* The image used */
+  margin-top: 30px;
+  background-image: url("../images/shadowarmy.jpg");
+  top: 10px;
+  /* Set a specific height */
+   min-height: 600px; 
+ 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Friends */
+
+.line1{
+  color:#000;
+  font-size:12px;
+
+}
+ .line2{
+  color:#000;
+  font-size:12px;
+  
+}
+ .line3{
+  color:#000;
+  font-size:12px;
+  
+}
+.cards{
+
+  transition: all 0.2s ease;
+  cursor: pointer;
+  
+
+}
+  
+#father:hover{
+  transition-delay: 0.7;
+  content: url("../images/f.png");
+}
+#mother:hover{
+  transition-delay: 0.7;
+  content: url("../images/m.jpg");
+}
+#sister:hover{
+  transition-delay: 0.7;
+  content: url("../images/s2.jpg");
+}
+#f1:hover{
+  transition-delay: 0.7;
+  content: url("../images/f2.png");
+}
+#f2:hover{
+  transition-delay: 0.7;
+  content: url("../images/f1.png");
+}
+#f3:hover{
+  transition-delay: 0.7;
+  content: url("../images/baek2.png");
+}
+
+.cards:hover{
+
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.1);
+}
+
+
+
+/* Monarchs */
+
+.screen1 {
+  width: 100%;
+  height: 520px;
+  background: rgba(165, 63, 63, 0.51);
+  
+}
+.parallaxm1 {
+  background-image: url("../images/Antares.webp");
+  background-attachment: fixed;
+  
+  width: 600px;
+  height: 692px;
+/* left: -58px; */
+top: -123px;
+}
+.boxm1 {
+  position: absolute;
+width: 620px;
+height: 455px;
+left: 620px;
+top: 90px;
+
+background: #D9D9D9;
+}
+.writtenm1 {
+  position: absolute;
+  align-items: center;
+  color: #000000;
+  left: 650px;
+  top: 140px;
+  width: 560px;
+  z-index: 15;
+  
+}
+.screen2 {
+  width: 100%;
+  height: 520px;
+  background: rgba(62, 46, 106, 0.51);
+  
+}
+.parallaxm2 {
+  background-image: url("../images/Ashborn.webp");
+  background-attachment: fixed;
+  width: 600px;
+  height: 520px;
+/* left: -58px; */
+top: 569px;
+z-index: 5;
+}
+.boxm2 {
+  position: absolute;
+width: 620px;
+height: 475px;
+left: 620px;
+ top: 590px; 
+
+background: #D9D9D9;
+}
+.writtenm2 {
+  position: absolute;
+  align-items: center;
+  color: #000000;
+  left: 650px;
+  top: 650px;
+  width: 560px;
+  z-index: 15;
+  
+}
+.screen3 {
+  width: 100%;
+  height: 520px;
+  background: rgba(43, 47, 64, 1);
+  
+}
+.parallaxm3 {
+  background-image: url("../images/Beast2.webp");
+  background-attachment: fixed;
+width: 600px;
+height: 520px;
+/* left: -58px; */
+top: 1089px;
+z-index: 15;
+}
+.boxm3 {
+  position: absolute;
+width: 620px;
+height: 465px;
+left: 620px;
+top: 1116px;
+
+background: #D9D9D9;
+}
+.writtenm3 {
+  position: absolute;
+  align-items: center;
+  color: #000000;
+  left: 650px;
+  top: 1170px;
+  width: 560px;
+  z-index: 15;
+  
+}
+.screen4 {
+  width: 100%;
+  height: 520px;
+  background: rgba(108, 123, 154, 0.51);
+  
+}
+.parallaxm4 {
+  background-image: url("../images/frost.jpg");
+  background-attachment: fixed;
+width: 600px;
+height: 520px;
+ left: -150px; 
+top: 1609px;
+z-index: 25;
+}
+.boxm4 {
+  position: absolute;
+width: 620px;
+height: 460px;
+left: 620px;
+top: 1640px;
+
+background: #D9D9D9;
+}
+.writtenm4 {
+  position: absolute;
+  align-items: center;
+  color: #000000;
+  left: 650px;
+  top: 1700px;
+  width: 560px;
+  z-index: 15;
+  
+}
+.screen5 {
+  width: 100%;
+  height: 520px;
+  background: rgba(173, 88, 96, 1);
+  
+}
+.parallaxm5 {
+  background-image: url("../images/Legia8.webp");
+  
+  background-attachment: fixed;
+width: 600px;
+height: 520px;
+/* left: -58px; */
+top: 2129px;
+z-index: 35;
+}
+.boxm5 {
+  position: absolute;
+width: 620px;
+height: 465px;
+left: 620px;
+top: 2155px;
+
+background: #D9D9D9;
+}
+.writtenm5 {
+  position: absolute;
+  align-items: center;
+  color: #000000;
+  left: 650px;
+  top: 2200px;
+  width: 560px;
+  z-index: 15;
+  
+}
+
+
+
+.bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+nav {
+ overflow: hidden;
+ position: fixed;
+}
+.maintxt {position: relative;}
+.maintxt > img, 
+.overlay-text {position: absolute;}
+
+
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+ 
+
+ .backd {
+  
+width: 100%vw;
+  position: fixed;
+  left: 10;
+}
+ @keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 600px;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  to {
+    border-right-color: transparent;
+  }
+} 
+.hidden .p-5  bg-dark text-secondary{
+  min-height: 500px;
+}
+
+
+ /* .hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+.show {
+  opacity: 1;
+}  */
+
